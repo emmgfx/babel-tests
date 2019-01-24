@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">window.exports = {};</script>
+        <script type="text/babel" src="module.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/@babel/standalone@7.3.1/babel.min.js"></script>
+    </head>
+    <body>
+        <script type="text/babel">
+        let test = new Test();
+        document.querySelector('body').innerText = test.concat();
+        </script>
+    </body>
+</html>
